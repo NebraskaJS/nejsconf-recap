@@ -1,0 +1,54 @@
+html {
+	font-family: Arial Black, sans-serif;
+}
+.wf-effra-i9-active {
+	font-family: Effra;
+}
+body {
+	font-weight: 900;
+	font-style: italic;
+	letter-spacing: 4px;
+}
+h1,
+p {
+	text-transform: uppercase;
+	font-size: 2.5em; /* 40px /16 */
+	margin: .5em;
+	line-height: 1;
+}
+h1 {
+	margin-top: 1em;
+	line-height: 1;
+}
+p {
+	line-height: 1.4;
+}
+body,
+:link,
+:visited {
+	color: #333;
+}
+:link,
+:visited {
+	text-decoration-color: #dedede;
+	text-decoration-skip: ink;
+}
+:link:hover,
+:visited:hover {
+	text-decoration-color: #333;
+}
+.recap {
+	font-size: 0.5333333333333em; /* 16px /30 */
+}
+.recap,
+.recap :link,
+.recap :visited {
+	color: #555;
+	font-family: system-ui, sans-serif;
+	letter-spacing: 0;
+	font-weight: 400;
+}
+
+p > a:first-child {
+	font-size: 1.5em; /* 60px /40 */
+}
