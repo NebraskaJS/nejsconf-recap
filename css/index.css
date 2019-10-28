@@ -4,21 +4,20 @@ html {
 .wf-effra-i9-active {
 	font-family: Effra;
 }
-body {
-	font-weight: 900;
-	font-style: italic;
-	letter-spacing: 4px;
-}
+
 h1,
 p {
-	text-transform: uppercase;
-	font-size: 2.5em; /* 40px /16 */
 	margin: .5em;
 	line-height: 1;
 }
 h1 {
+	font-weight: 900;
+	font-style: italic;
+	text-transform: uppercase;
+	font-size: 2.5em; /* 40px /16 */
 	margin-top: 1em;
 	line-height: 1;
+	letter-spacing: 4px;
 }
 p {
 	line-height: 1.4;
@@ -49,6 +48,19 @@ body,
 	font-weight: 400;
 }
 
-p > a:first-child {
+.prior {
+	text-transform: uppercase;
+	font-size: 2.5em; /* 40px /16 */
+	letter-spacing: 4px;
+	font-weight: 900;
+	font-style: italic;
+}
+.prior > a:first-child {
 	font-size: 1.5em; /* 60px /40 */
+}
+.description {
+	margin: 1.25rem; /* 20px /16 */
+	font-family: system-ui, sans-serif;
+	font-weight: 400;
+	max-width: 40em;
 }
